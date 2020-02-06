@@ -3,6 +3,7 @@ import React from 'react';
 import classes from './Person.css';
 
 const Person = (props) => {
+    console.log('[Person.js] renderring...');
     const { name, age, children } = props;
     return (
         <div className={classes.Person}>
